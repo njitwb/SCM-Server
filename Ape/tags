@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.PHONY	Makefile	/^.PHONY := all install clean$/;"	m
+BUILDOBJS	Makefile	/^BUILDOBJS     := $(subst $(SRCDIR),$(OBJECTDIR),$(SRCOBJS))$/;"	m
+Bool	src/main/Ape.h	/^typedef char Bool;$/;"	t
+CC	Makefile	/^CC         := gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS    := -O2 $(foreach dir,$(SOURCEDIRS),-I$(dir))$/;"	m
+Config_compile	src/main/Ape.h	/^} Config_compile;$/;"	t	typeref:struct:__anon3
+Config_download	src/main/Ape.h	/^} Config_download;$/;"	t	typeref:struct:__anon4
+Config_ftp	src/main/Ape.h	/^} Config_ftp;$/;"	t	typeref:struct:__anon5
+Config_project	src/main/Ape.h	/^} Config_project;$/;"	t	typeref:struct:__anon1
+Config_review	src/main/Ape.h	/^} Config_review;$/;"	t	typeref:struct:__anon2
+Config_send	src/main/Ape.h	/^} Config_send;$/;"	t	typeref:struct:__anon6
+ERROR	src/main/Ape.h	17;"	d
+FALSE	src/main/Ape.h	15;"	d
+INFEASIBLE	src/main/Ape.h	18;"	d
+OBJECTDIR	Makefile	/^OBJECTDIR  := $(TOPDIR)\/out$/;"	m
+OK	src/main/Ape.h	16;"	d
+OVERFLOW	src/main/Ape.h	19;"	d
+Position	src/main/Ape.h	/^} TaskNode, *Task, *Position;$/;"	t	typeref:struct:TaskNode
+SOURCEDIRS	Makefile	/^SOURCEDIRS    := $(VPATH)$/;"	m
+SOURCES	Makefile	/^SOURCES       := $(foreach subdir,$(SOURCEDIRS),$(wildcard $(subdir)\/*.c))$/;"	m
+SRCDIR	Makefile	/^SRCDIR     := $(TOPDIR)\/src$/;"	m
+SRCOBJS	Makefile	/^SRCOBJS       := $(patsubst %.c,%.o,$(SOURCES))$/;"	m
+Status	src/main/Ape.h	/^typedef int Status;$/;"	t
+TARGETMAIN	Makefile	/^TARGETMAIN    := SCMServer$/;"	m
+TOPDIR	Makefile	/^TOPDIR     := $(shell pwd)$/;"	m
+TRUE	src/main/Ape.h	14;"	d
+Task	src/main/Ape.h	/^} TaskNode, *Task, *Position;$/;"	t	typeref:struct:TaskNode
+TaskAlarm	src/main/Ape.h	/^} TaskAlarm;$/;"	t	typeref:struct:__anon8
+TaskConfig	src/main/Ape.h	/^}TaskConfig;$/;"	t	typeref:struct:__anon7
+TaskList	src/main/Ape.h	/^}TaskList;$/;"	t	typeref:struct:__anon9
+TaskNode	src/main/Ape.h	/^typedef struct TaskNode {$/;"	s
+TaskNode	src/main/Ape.h	/^} TaskNode, *Task, *Position;$/;"	t	typeref:struct:TaskNode
+TaskNode::next	src/main/Ape.h	/^   struct TaskNode *next;$/;"	m	struct:TaskNode	typeref:struct:TaskNode::TaskNode	access:public
+TaskNode::task	src/main/Ape.h	/^   TaskAlarm *task;$/;"	m	struct:TaskNode	access:public
+VPATH	Makefile	/^VPATH         := $(shell ls -AxR $(SRCDIR)|grep ":"|tr -d ':')$/;"	m
+__TASKALARM_H__	src/main/Ape.h	2;"	d
+__anon1::branch	src/main/Ape.h	/^	char *branch;    \/\/project.branch,例如:dev_branch$/;"	m	struct:__anon1	access:public
+__anon1::manifest	src/main/Ape.h	/^    char *manifest;    \/\/project.manifest manifest文件的存放地址,例如:ssh:\/\/10.20.25.93:29418\/intel_byt_i_64\/manifests$/;"	m	struct:__anon1	access:public
+__anon1::name	src/main/Ape.h	/^    char *name;   \/\/project.name,项目的名称 例如:intel_byt_i_64$/;"	m	struct:__anon1	access:public
+__anon2::name	src/main/Ape.h	/^	char *name;    \/\/review人的姓名$/;"	m	struct:__anon2	access:public
+__anon2::url	src/main/Ape.h	/^    char *url;    \/\/review.url,代码审核的地址,例如:http:\/\/10.20.25.93:8081$/;"	m	struct:__anon2	access:public
+__anon3::release	src/main/Ape.h	/^	char *release;    \/\/release时的文件夹名称$/;"	m	struct:__anon3	access:public
+__anon3::script	src/main/Ape.h	/^    char *script;    \/\/编译脚本的文件名$/;"	m	struct:__anon3	access:public
+__anon3::version	src/main/Ape.h	/^	char *version;    \/\/编译选项,执行lunch时使用,例如:byt_crb_64-eng$/;"	m	struct:__anon3	access:public
+__anon4::mask	src/main/Ape.h	/^    char *mask;    \/\/编译时屏蔽掉的changID$/;"	m	struct:__anon4	access:public
+__anon5::server	src/main/Ape.h	/^    char *server;    \/\/FTP服务器目录$/;"	m	struct:__anon5	access:public
+__anon6::mail	src/main/Ape.h	/^    char *mail;    \/\/编译完成后将自动发送邮件$/;"	m	struct:__anon6	access:public
+__anon7::compile	src/main/Ape.h	/^    Config_compile compile;$/;"	m	struct:__anon7	access:public
+__anon7::download	src/main/Ape.h	/^	Config_download download;$/;"	m	struct:__anon7	access:public
+__anon7::fileName	src/main/Ape.h	/^	char *fileName;    \/\/config文件名$/;"	m	struct:__anon7	access:public
+__anon7::ftp	src/main/Ape.h	/^	Config_ftp ftp;$/;"	m	struct:__anon7	access:public
+__anon7::project	src/main/Ape.h	/^    Config_project project;$/;"	m	struct:__anon7	access:public
+__anon7::review	src/main/Ape.h	/^	Config_review review;$/;"	m	struct:__anon7	access:public
+__anon7::send	src/main/Ape.h	/^	Config_send send;$/;"	m	struct:__anon7	access:public
+__anon8::alarm_t	src/main/Ape.h	/^    time_t alarm_t;    \/\/定时执行的时间，相对于1970年1月1日0时0分的秒数$/;"	m	struct:__anon8	access:public
+__anon8::alarm_tm	src/main/Ape.h	/^	struct tm alarm_tm;    \/\/定时执行的时间结构体$/;"	m	struct:__anon8	typeref:struct:__anon8::tm	access:public
+__anon8::config	src/main/Ape.h	/^    TaskConfig config;    \/\/任务的配置$/;"	m	struct:__anon8	access:public
+__anon8::id	src/main/Ape.h	/^    int id;    \/\/任务ID$/;"	m	struct:__anon8	access:public
+__anon8::name	src/main/Ape.h	/^	char *name;$/;"	m	struct:__anon8	access:public
+__anon8::status	src/main/Ape.h	/^	Status status;    \/\/任务状态$/;"	m	struct:__anon8	access:public
+__anon9::head	src/main/Ape.h	/^    Task head, tail;    \/\/分别指向任务链表的头和尾$/;"	m	struct:__anon9	access:public
+__anon9::len	src/main/Ape.h	/^	int len;    \/\/链表中元素的个数$/;"	m	struct:__anon9	access:public
+__anon9::tail	src/main/Ape.h	/^    Task head, tail;    \/\/分别指向任务链表的头和尾$/;"	m	struct:__anon9	access:public
+alarm_t	src/main/Ape.h	/^    time_t alarm_t;    \/\/定时执行的时间，相对于1970年1月1日0时0分的秒数$/;"	m	struct:__anon8	access:public
+alarm_tm	src/main/Ape.h	/^	struct tm alarm_tm;    \/\/定时执行的时间结构体$/;"	m	struct:__anon8	typeref:struct:__anon8::tm	access:public
+analyze_Response	Script/main.pl	/^sub analyze_Response {$/;"	s
+branch	src/main/Ape.h	/^	char *branch;    \/\/project.branch,例如:dev_branch$/;"	m	struct:__anon1	access:public
+clearTaskList	src/main/TaskAlarm.c	/^Status clearTaskList(TaskList *L)$/;"	f	signature:(TaskList *L)
+compile	Script/compile.sh	/^function compile()$/;"	f
+compile	src/main/Ape.h	/^    Config_compile compile;$/;"	m	struct:__anon7	access:public
+compile_Source	Script/main.pl	/^sub compile_Source {$/;"	s
+config	src/main/Ape.h	/^    TaskConfig config;    \/\/任务的配置$/;"	m	struct:__anon8	access:public
+creatConfigFile	src/main/ApeConfigure.c	/^int creatConfigFile(TaskAlarm *task)$/;"	f	signature:(TaskAlarm *task)
+createConfigFile	src/main/Ape.h	/^int createConfigFile(TaskAlarm *task);$/;"	p	signature:(TaskAlarm *task)
+createFile	Script/config.pl	/^sub createFile {$/;"	s
+createTaskNode	src/main/TaskAlarm.c	/^Status createTaskNode(Task *p, TaskAlarm *t)$/;"	f	signature:(Task *p, TaskAlarm *t)
+defualt	Script/config.pl	/^	defualt:byt_i_64$/;"	l
+defualt	Script/config.pl	/^	defualt:ssh:\/\/10.20.25.93:29418\/byt_i_64\/manifest$/;"	l
+deleteFirst	src/main/TaskAlarm.c	/^Status deleteFirst(TaskList *h, Task *q)$/;"	f	signature:(TaskList *h, Task *q)
+deleteTail	src/main/TaskAlarm.c	/^Status deleteTail(TaskList *L, Task *q)$/;"	f	signature:(TaskList *L, Task *q)
+deleteTaskById	src/main/TaskAlarm.c	/^Status deleteTaskById(TaskList *L, int id)$/;"	f	signature:(TaskList *L, int id)
+deleteTaskNode	src/main/TaskAlarm.c	/^void deleteTaskNode(TaskList *L, Task q)$/;"	f	signature:(TaskList *L, Task q)
+destoryList	src/main/TaskAlarm.c	/^Status destoryList(TaskList *L)$/;"	f	signature:(TaskList *L)
+download	src/main/Ape.h	/^	Config_download download;$/;"	m	struct:__anon7	access:public
+fileName	src/main/Ape.h	/^	char *fileName;    \/\/config文件名$/;"	m	struct:__anon7	access:public
+freeNode	src/main/TaskAlarm.c	/^void freeNode(Task *p)$/;"	f	signature:(Task *p)
+ftp	src/main/Ape.h	/^	Config_ftp ftp;$/;"	m	struct:__anon7	access:public
+getCommitInfo	Script/getPatchs.pl	/^sub getCommitInfo {$/;"	s
+getLastCommitID	Script/getPatchs.pl	/^sub getLastCommitID$/;"	s
+getPatchs	Script/getPatchs.pl	/^sub getPatchs {$/;"	s
+get_LastChar	Script/main.pl	/^sub get_LastChar {$/;"	s
+get_Response	Script/main.pl	/^sub get_Response {$/;"	s
+head	src/main/Ape.h	/^    Task head, tail;    \/\/分别指向任务链表的头和尾$/;"	m	struct:__anon9	access:public
+id	src/main/Ape.h	/^    int id;    \/\/任务ID$/;"	m	struct:__anon8	access:public
+initTaskList	src/main/TaskAlarm.c	/^Status initTaskList(TaskList *L)$/;"	f	signature:(TaskList *L)
+insertFirst	src/main/TaskAlarm.c	/^Status insertFirst(TaskList *h, Task s)$/;"	f	signature:(TaskList *h, Task s)
+isEmptyList	src/main/TaskAlarm.c	/^Bool isEmptyList(TaskList L)$/;"	f	signature:(TaskList L)
+isExsitTaskByName	src/main/TaskAlarm.c	/^Bool isExsitTaskByName(TaskList *L, Task q)$/;"	f	signature:(TaskList *L, Task q)
+len	src/main/Ape.h	/^	int len;    \/\/链表中元素的个数$/;"	m	struct:__anon9	access:public
+log	Script/compile.sh	/^log()$/;"	f
+log	Script/sync.sh	/^log()$/;"	f
+log_Out	Script/main.pl	/^sub log_Out {$/;"	s
+mail	src/main/Ape.h	/^    char *mail;    \/\/编译完成后将自动发送邮件$/;"	m	struct:__anon6	access:public
+main	src/main/ApeMain.c	/^void main(void)$/;"	f	signature:(void)
+make_Dir	Script/main.pl	/^sub make_Dir {$/;"	s
+manifest	src/main/Ape.h	/^    char *manifest;    \/\/project.manifest manifest文件的存放地址,例如:ssh:\/\/10.20.25.93:29418\/intel_byt_i_64\/manifests$/;"	m	struct:__anon1	access:public
+mask	src/main/Ape.h	/^    char *mask;    \/\/编译时屏蔽掉的changID$/;"	m	struct:__anon4	access:public
+name	src/main/Ape.h	/^	char *name;    \/\/review人的姓名$/;"	m	struct:__anon2	access:public
+name	src/main/Ape.h	/^	char *name;$/;"	m	struct:__anon8	access:public
+name	src/main/Ape.h	/^    char *name;   \/\/project.name,项目的名称 例如:intel_byt_i_64$/;"	m	struct:__anon1	access:public
+next	src/main/Ape.h	/^   struct TaskNode *next;$/;"	m	struct:TaskNode	typeref:struct:TaskNode::TaskNode	access:public
+nextPos	src/main/TaskAlarm.c	/^Position nextPos(TaskList L, Task p)$/;"	f	signature:(TaskList L, Task p)
+priorPos	src/main/TaskAlarm.c	/^Position priorPos(TaskList L, Task p)$/;"	f	signature:(TaskList L, Task p)
+project	src/main/Ape.h	/^    Config_project project;$/;"	m	struct:__anon7	access:public
+release	src/main/Ape.h	/^	char *release;    \/\/release时的文件夹名称$/;"	m	struct:__anon3	access:public
+review	src/main/Ape.h	/^	Config_review review;$/;"	m	struct:__anon7	access:public
+script	src/main/Ape.h	/^    char *script;    \/\/编译脚本的文件名$/;"	m	struct:__anon3	access:public
+send	src/main/Ape.h	/^	Config_send send;$/;"	m	struct:__anon7	access:public
+send_Mail	Script/main.pl	/^sub send_Mail {$/;"	s
+server	src/main/Ape.h	/^    char *server;    \/\/FTP服务器目录$/;"	m	struct:__anon5	access:public
+setCurTask	src/main/TaskAlarm.c	/^void setCurTask(Task *p, TaskAlarm *t)$/;"	f	signature:(Task *p, TaskAlarm *t)
+sizeTaskList	src/main/TaskAlarm.c	/^int sizeTaskList(TaskList L)$/;"	f	signature:(TaskList L)
+status	src/main/Ape.h	/^	Status status;    \/\/任务状态$/;"	m	struct:__anon8	access:public
+sync_Source	Script/main.pl	/^sub sync_Source {$/;"	s
+sync_all	Script/sync.sh	/^sync_all()$/;"	f
+sync_change	Script/sync.sh	/^sync_change()$/;"	f
+tail	src/main/Ape.h	/^    Task head, tail;    \/\/分别指向任务链表的头和尾$/;"	m	struct:__anon9	access:public
+task	src/main/Ape.h	/^   TaskAlarm *task;$/;"	m	struct:TaskNode	access:public
+taskListTraverse	src/main/TaskAlarm.c	/^Status taskListTraverse(TaskList L, Status (*visit)(Task))$/;"	f	signature:(TaskList L, Status (*visit)(Task))
+test	src/main/Communication.c	/^void test(void)$/;"	f	signature:(void)
+url	src/main/Ape.h	/^    char *url;    \/\/review.url,代码审核的地址,例如:http:\/\/10.20.25.93:8081$/;"	m	struct:__anon2	access:public
+usage	Script/config.pl	/^sub usage {$/;"	s
+usage	Script/config.pl	/^usage:$/;"	l
+version	src/main/Ape.h	/^	char *version;    \/\/编译选项,执行lunch时使用,例如:byt_crb_64-eng$/;"	m	struct:__anon3	access:public
+writeConfig	src/main/ApeConfigure.c	/^int writeConfig(int fd, char *config, char *contents)$/;"	f	signature:(int fd, char *config, char *contents)

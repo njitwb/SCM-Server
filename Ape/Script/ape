@@ -1,0 +1,28 @@
+#!/bin/bash
+
+APE=http://10.20.25.93:8081/Ape
+
+if [ $1 = "init" ];then
+	rm -rf .ape/
+	mkdir .ape/
+	cd .ape/
+	git clone $APE
+elif [ $1 = "config" ];then
+	ARR=($@)
+	unset ARR[0]
+	.ape/Ape/config.pl ${ARR[@]}
+elif [ $1 = "start" ];then
+	if [ -e .ape/Ape/main.pl ];then
+		.ape/Ape/main.pl no
+	else
+		echo "Please run init"
+	fi
+elif [ $1 = "restart" ];then
+	if [ -e .ape/Ape/main.pl ];then
+		.ape/Ape/main.pl yes
+	else
+		echo "Please run init"
+	fi
+else
+	echo "ERROR!"
+fi

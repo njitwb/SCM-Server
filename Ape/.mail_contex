@@ -1,0 +1,24 @@
+您好：
+
+    现在时间是<date>，刚才服务器完成了一次编译，编译信息如下：
+
+    版本：<release> <version>
+    代码审核：<review>
+    编译开始时间：<start_time>
+    编译结束时间：<over_time>
+    Image下载地址：
+        <ftp_image>
+
+    本次编译加入的patch信息如下：
+<patch>
+
+    如您需要本次编译的patch文件，您可以访问下面的地址获得(patchs 文件夹)：
+        <ftp_server>
+
+    更多编译信息您可以通过上述FTP的logs文件夹进行查看，也可通过附件获得！
+
+    本邮件由系统发出，请勿回复！如有问题请联系王波( bo.wang@archermind.com ).
+
+祝您工作愉快！
+谢谢！
+
