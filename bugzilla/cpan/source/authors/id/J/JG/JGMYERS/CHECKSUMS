@@ -1,0 +1,67 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sat Jun 20 07:07:31 2015 GMT by CPAN::Checksums (v2.08)
+$cksum = {
+  'Encode-Detect-0.01.tar.gz' => {
+    'md5' => 'fa8457f635ab654eb7717f772d059615',
+    'md5-ungz' => 'a040db90b3d84d8044d798f7863654ec',
+    'mtime' => '2005-10-27',
+    'sha256' => '447724b1e05c3c14ec11e5381d3ba903dccb74273cd2ce2634b6d62356c54d9c',
+    'sha256-ungz' => '2c77c2b77b52ac83ff14f02dda975f12d7d500de4099539cd41d8ce5437a711b',
+    'size' => 175277
+  },
+  'Encode-Detect-1.00.meta' => {
+    'md5' => '8fc522dd56729b6c99c5591a88ae3f60',
+    'mtime' => '2006-10-27',
+    'sha256' => '95b62849576ba5682742ff3afdf069b7e6b123f4452629b73c7143bf9e6a0ab9',
+    'size' => 574
+  },
+  'Encode-Detect-1.00.tar.gz' => {
+    'md5' => '54e03becd018e237c8ccc275b52df846',
+    'md5-ungz' => '1ee42c0fa503334d51bcd7a048a15ac2',
+    'mtime' => '2006-10-27',
+    'sha256' => '3f23f8ccb007b9af001c72d3c458faa598e8819aefc51e66a1c89b9fb1af3afc',
+    'sha256-ungz' => '030a34e884ce53a7399dc4320ad728435f99fe5fcd85f0582e28c1a07a23e02e',
+    'size' => 179575
+  },
+  'Encode-Detect-1.01.meta' => {
+    'md5' => 'a223db3e15692da8e9679acc610d096d',
+    'mtime' => '2008-05-27',
+    'sha256' => '1201f5d23e9bcfb994474eec38ca26556b11c1990ee5c1e1c50dbe18ef0e0611',
+    'size' => 574
+  },
+  'Encode-Detect-1.01.tar.gz' => {
+    'md5' => 'ee9faf55d7105c97b02b8ebe590819c7',
+    'md5-ungz' => 'd6ddd2cc7bb2bccb83309baf7e282326',
+    'mtime' => '2008-05-27',
+    'sha256' => '834d893aa7db6ce3f158afbd0e432d6ed15a276e0940db0a74be13fd9c4bbbf1',
+    'sha256-ungz' => '7f09a53999a04db24650d8d54e08b6cef0bc381f1f548a78b2cebf21ae5e474a',
+    'size' => 179698
+  },
+  'Proc-PID-File-Fcntl-1.00.tar.gz' => {
+    'md5' => '76d1193fc0bec732391c03af7d278112',
+    'md5-ungz' => 'ed816d3071a9c42a813679a6a5fa791b',
+    'mtime' => '2006-05-03',
+    'sha256' => '969f13a427ab5bcaf214e7491fb511b8681c67e18463f3a72828021ae06574af',
+    'sha256-ungz' => 'c1b91d1122b0eb35d3eb3b6638b70d6cf80086011f6a8db4136d8d63d2e9edd4',
+    'size' => 3280
+  },
+  'Proc-PID-File-Fcntl-1.01.tar.gz' => {
+    'md5' => '4bed57b7e9a6911eaf5b7197131446e7',
+    'md5-ungz' => '72b32c7e76b18637df7948c63caced97',
+    'mtime' => '2006-09-06',
+    'sha256' => '2d7c7b4fd344211df3f2bcea83fce68f6e3edfd9af0b1fc5a1e80c885dfde22a',
+    'sha256-ungz' => 'cc12f3df0179e69fc866c4fa49bd5cbfc468a0681b0d45812db6736b5ad79fed',
+    'size' => 3429
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlWFETMACgkQMo2oZ0UPiewmyQCeOnO6m5gQHXqqTUPi7QRRwcOL
+Lb4AoIWoz5oPvlO9etwsAgcLGsRHG07N
+=gPSV
+-----END PGP SIGNATURE-----

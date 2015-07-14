@@ -1,12 +1,9 @@
 #!/bin/bash
 
 GERRIT_WAR=soft/gerrit-2.10-rc1.war
+#!/bin/bash
 
-if [ -n "$1" ]; then
-    Install_Dir=$1/review_site
-else
-    Install_Dir=$HOME/review_site
-fi
+Install_Dir=$HOME/review_site
 
 #cleanup
 rm -rf $Install_Dir
@@ -49,6 +46,13 @@ EOF
 #init gerrit
 java -jar $GERRIT_WAR init -d $Install_Dir --batch
 java -jar $GERRIT_WAR reindex -d $Install_Dir
+
+#config apache2
+htpasswd -c $Install_Dir/etc/passwords gerrit
+sudo cp ../configs/gerrit.conf /etc/apache2/sites-available/gerrit
+sudo a2ensite gerrit
+sudo cp ../configs/ports.conf /etc/apache2/
+sudo /etc/init.d/apache2 restart
 
 #start gerrit
 $Install_Dir/bin/gerrit.sh start

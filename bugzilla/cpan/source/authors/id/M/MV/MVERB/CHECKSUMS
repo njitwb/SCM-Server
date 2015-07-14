@@ -1,0 +1,71 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Jun 15 14:40:15 2015 GMT by CPAN::Checksums (v2.08)
+$cksum = {
+  'GDGraph-1.40.tar.gz' => {
+    'md5' => '8f5edaef6a8b3a05a1851b88d6cf8341',
+    'md5-ungz' => '26f649a47bdea2309ab2575710d80ed1',
+    'mtime' => '2003-05-30',
+    'sha256' => 'b37fa23313b390186bbab66f4096752db50b4d2f1e991d922f234d43a0b6a0c3',
+    'sha256-ungz' => '3916fca099d4fe0a5026887354ad2ffc71fa7afb68f8652d72af64be7df64e5c',
+    'size' => 132788
+  },
+  'GDGraph-1.42.tar.gz' => {
+    'md5' => '530aa8288434e45a27a15ab53e83373d',
+    'md5-ungz' => 'a12ab1f83161852aa69c621bdd8e046f',
+    'mtime' => '2003-06-20',
+    'sha256' => '6c887eb2a146e2598d5d86f9c654dd55df8d8ebaefdd1b7f6052559c0bbaf4d7',
+    'sha256-ungz' => 'cdd0092ae03ac2036c2f9b5dff4d8a75cd248506fd9fcd85518d67528573bc9e',
+    'size' => 129309
+  },
+  'GDGraph-1.43.tar.gz' => {
+    'md5' => 'cf546f2de827a56458afe288ab0807f2',
+    'md5-ungz' => 'b3e0c868616245cdcf7e0ddaf4fec9c3',
+    'mtime' => '2003-07-01',
+    'sha256' => '82793d3051aee0ab7b802158f00b6d439bc4dbc9f7279bb8e2e02dec636874c6',
+    'sha256-ungz' => '383963bce78bf139077ccf1e6101db79c8e5d5e26f6b6c0f11906edf72b407e6',
+    'size' => 130020
+  },
+  'GDTextUtil-0.85.tar.gz' => {
+    'md5' => 'b86a79ff37a19646901621b3b702b451',
+    'md5-ungz' => 'd35b60dea2ee1d1ecf74190160587314',
+    'mtime' => '2003-02-20',
+    'sha256' => '12986e361cfebfa647375a97f1528bf3b178834437118a33fbc85290f990765d',
+    'sha256-ungz' => '4088789b2099cd159db10d2331e8dd011230f446a42e6c217d24feac5e5938b1',
+    'size' => 127496
+  },
+  'GDTextUtil-0.86.tar.gz' => {
+    'md5' => '941ad06eadc86b47f3a32da405665c41',
+    'md5-ungz' => 'ca88e7e8f71e7464f9d3bfcde44348a4',
+    'mtime' => '2003-06-19',
+    'sha256' => '886ecbf85cfe94f4135ee5689c4847a9ae783ecb99e6759e12c734f2dd6116bc',
+    'sha256-ungz' => '236b95f06bb7491886f8cacc5d829c416eaef46d3fa0020368773a65bd32898a',
+    'size' => 64698
+  },
+  'GIFgraph-1.10.tar.gz' => {
+    'md5' => '1bba4331bc82dd9e669a4dee592e5f02',
+    'md5-ungz' => '67b62a61fea2de0edddd1012f45aafac',
+    'mtime' => '1998-08-25',
+    'sha256' => '58518c0142588ca6ec6747822f543b3e9701b49935d2119d084e6b59ae1a04a6',
+    'sha256-ungz' => '5a7d36b76fd9ebda27a3f6cff4c46c6c0d1c8908535e143c691ca164d470cb2e',
+    'size' => 109925
+  },
+  'GIFgraph-1.20.tar.gz' => {
+    'md5' => 'b4171f7d88c01acb0df5c5d515b24714',
+    'md5-ungz' => 'b40bfe36a9d75af9b2d3259ca5e0d01d',
+    'mtime' => '1999-12-30',
+    'sha256' => 'de97b948d3b6c0b4380ff0bd0c59784741c89f87e486988ac62b18eac8ccc823',
+    'sha256-ungz' => '4463c7081d5349bd971858cf5be17990280f13cde917d50a25ac4479428cc83d',
+    'size' => 29434
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlV+488ACgkQMo2oZ0UPiez8EgCdHbuGH+/uk9B85Zh0mpYa/nkj
+B8cAn3u5ealwWops0NicpqqNcscE2+RA
+=zkaX
+-----END PGP SIGNATURE-----

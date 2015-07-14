@@ -1,0 +1,541 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Thu Jun 18 21:53:17 2015 GMT by CPAN::Checksums (v2.08)
+$cksum = {
+  'Apache-Reload-0.13.meta' => {
+    'md5' => 'f543dd83ac50fabf67cfc949e279ac72',
+    'mtime' => '2015-05-09',
+    'sha256' => 'fe199e54b99866875bca7ee031b349d2a41accd2f21240bdb0c8653af88bab8d',
+    'size' => 852
+  },
+  'Apache-Reload-0.13.tar.gz' => {
+    'md5' => 'c68a315bc17b2e7419d2820262bbd749',
+    'md5-ungz' => '62a6eaf7e09f9201bbb14806083dda68',
+    'mtime' => '2015-05-09',
+    'sha256' => 'c8d0bfc1c18f0f0de39f4ad7f374f1a66a22daa3d1120f6deac2b8c550aa296a',
+    'sha256-ungz' => '4bf5daafc0aae8f538ba2e8730822ee6b43e90bc05c3bbe1bbf8017cbeeffee5',
+    'size' => 18908
+  },
+  'Apache-Test-1.39.meta' => {
+    'md5' => 'b05deba6aa25d39196f494abe6612352',
+    'mtime' => '2015-04-21',
+    'sha256' => 'ff59fa4ec20508c062a54cfa8930f618a937175ec61a34b801dc1e8d9a7b4072',
+    'size' => 860
+  },
+  'Apache-Test-1.39.tar.gz' => {
+    'md5' => '1a24e6a0ae79e58d1acf3278137039c8',
+    'md5-ungz' => '3ff8a0287823763617006a71b9100fdc',
+    'mtime' => '2015-04-21',
+    'sha256' => 'd8543864ff29e8ac3d4004c5c7014b1fe490b2024104ac4c24683a74bba62089',
+    'sha256-ungz' => '4a05179da19146fdb35492a78dc28c3e12fcefef8c4fbe77c07a2d90fbfa8bbb',
+    'size' => 151240
+  },
+  'Class-Data-Inheritable-Translucent-1.04.meta' => {
+    'md5' => '1287c2b38b7ae8fee820e09bae698768',
+    'mtime' => '2014-05-30',
+    'sha256' => 'eddb6b431c5cd4056130313450cb81c73e30acc3cf6d70e01f50c8095d5ef2f0',
+    'size' => 2075
+  },
+  'Class-Data-Inheritable-Translucent-1.04.tar.gz' => {
+    'md5' => '1e656e52279c80fb38e88cff3fe48774',
+    'md5-ungz' => '7230513a88bc4c7d6987a37607424f9b',
+    'mtime' => '2014-05-30',
+    'sha256' => '92e1686bf9022f9a185b7c2d1d37856b39d55edad17f1d6e9a2649081c460ea1',
+    'sha256-ungz' => '4cc5d035a99dc51217a5d758e07a2317dca3517e97155f79eb6f98aec1b395bf',
+    'size' => 5751
+  },
+  'Class-Singleton-1.5.meta' => {
+    'md5' => '394e75f3c44cbc15cfb9f92bfe55cb6d',
+    'mtime' => '2014-11-07',
+    'sha256' => '300740afe55479a5d9815bbd5ee1a8e0da0709c8c9132068781bd9b1a0b37179',
+    'size' => 401
+  },
+  'Class-Singleton-1.5.tar.gz' => {
+    'md5' => '6a2524f590eda075f4bc929598119241',
+    'md5-ungz' => '4b4851a0ca7cf00276a47dd816c9cc30',
+    'mtime' => '2014-11-07',
+    'sha256' => '38220d04f02e3a803193c2575a1644cce0b95ad4b95c19eb932b94e2647ef678',
+    'sha256-ungz' => 'f10b3f6dafb0ac799231d4dfbab42cc2c3790308727f96c8a74d96d25f32f9ff',
+    'size' => 7785
+  },
+  'Filter-Crypto-2.06.meta' => {
+    'md5' => 'acb535cd1771d7aa8b79df66a69236e0',
+    'mtime' => '2014-05-30',
+    'sha256' => '0aa98e3ca0164101528478312b4c164f367a8ccc4ee344a87a3e232b9f372741',
+    'size' => 3169
+  },
+  'Filter-Crypto-2.06.tar.gz' => {
+    'md5' => '3395f55723d31fdc804865f93e20695a',
+    'md5-ungz' => 'd5879d3098d552233c19aff2e1ec009e',
+    'mtime' => '2014-05-30',
+    'sha256' => '6765064ede4d83807f8f9fc86e033bbb1b5dd23350203e6a71708e30f613c425',
+    'sha256-ungz' => '3eb5429aadb1b3f2c54acf46d434c359774bb125dc448be5815c33df34bfcd80',
+    'size' => 144235
+  },
+  'Filter-Crypto-2.07.meta' => {
+    'md5' => 'db6785c234a3255e6d66d442d9ad22a0',
+    'mtime' => '2015-02-28',
+    'sha256' => '5b2ed611b22c86569db04e50c3e920d663ee7f3b3f449070306fdd7464481990',
+    'size' => 3475
+  },
+  'Filter-Crypto-2.07.tar.gz' => {
+    'md5' => '27ec72ec3f521b859c3d0e0cfbc8522c',
+    'md5-ungz' => 'f4e5fd524d832d6d2489e33630e1fb8d',
+    'mtime' => '2015-02-28',
+    'sha256' => '2d2d78ba90c6bd63bf55f87b65491efc07db30f50d8e9de5235ec7047cf2665f',
+    'sha256-ungz' => 'd60ea7bc8d4b8157a66917c000d2c9e0c715abdaec92f217eb3e5124b8bd60a6',
+    'size' => 144793
+  },
+  'PerlIO-via-QuotedPrint-0.08.meta' => {
+    'md5' => '4cadf188d6adccb562763b4ed9bd553b',
+    'mtime' => '2015-05-17',
+    'sha256' => 'a9422b14c62e85d775ed8a05485bfc2717c1f8e6b107c07c87f741e3ad048d4e',
+    'size' => 906
+  },
+  'PerlIO-via-QuotedPrint-0.08.tar.gz' => {
+    'md5' => 'ca2e99b1d7dc2faa3962b569e06e7a88',
+    'md5-ungz' => '3b48ed15fcc2bad8dbf47dc4cf3be793',
+    'mtime' => '2015-05-17',
+    'sha256' => '9b999a54134816de5217f7a8cac69fa5d89ab32dc589fcd5c9e84902f608cb9c',
+    'sha256-ungz' => '5cfb5e8c886dfe99877836509fecf5e0069ef2b788c18bced74e7991a371fe7b',
+    'size' => 3644
+  },
+  'Text-Balanced-2.03.meta' => {
+    'md5' => '9e3caefbbdb8f2916a5275d866fbee98',
+    'mtime' => '2015-03-04',
+    'sha256' => '50bdc66b4fb0cc4975b5bd4eed42ffae351368ff41e9bffe6d6cbc822c687925',
+    'size' => 562
+  },
+  'Text-Balanced-2.03.tar.gz' => {
+    'md5' => '891fa8a0f20307a5f22ac1fdd0ce565b',
+    'md5-ungz' => 'b7eadbde96b646bc1d28a3e4f11b8859',
+    'mtime' => '2015-03-04',
+    'sha256' => '057753f8f0568b53921f66a60a89c30092b73329bcc61a2c43339ab70c9792c8',
+    'sha256-ungz' => '698c4da7327ad83779b1eb9a9232ddbb3f738cc9cffc8496b4ccdf3ce8543b0a',
+    'size' => 48773
+  },
+  'Win32-SharedFileOpen-4.02.meta' => {
+    'md5' => '66901951a9f93dcd717fde43536e0bc6',
+    'mtime' => '2014-05-30',
+    'sha256' => 'eb47ef123784a4be40ef9613c8097fe080a04b09a1f23f4c815f79c9337fa2fe',
+    'size' => 2289
+  },
+  'Win32-SharedFileOpen-4.02.tar.gz' => {
+    'md5' => 'b634d4d014f8215709c4f202721131c0',
+    'md5-ungz' => '05ebce31892224e4a5b8a5095e194bbd',
+    'mtime' => '2014-05-30',
+    'sha256' => 'bf3fa7ab60dc9773f28697e66690a00f9c5b51128b01a416639ec3269101811e',
+    'sha256-ungz' => '8b2f498158670be9f9f69aa01228f3b2f5bab99d386b38a0067ed9bc4ee16899',
+    'size' => 93445
+  },
+  'Win32-UTCFileTime-1.58.meta' => {
+    'md5' => 'aff86f39cf20aa6502b93c9f7fc27b05',
+    'mtime' => '2014-05-30',
+    'sha256' => 'd339ba77c28812e8454f35b2e33d750b899c5505613e957e757521bd7af39e63',
+    'size' => 1864
+  },
+  'Win32-UTCFileTime-1.58.tar.gz' => {
+    'md5' => '37f68daa6aa73110e7fa0c263aa443b9',
+    'md5-ungz' => '433bbf294987716eb1c87b3ef9438c5a',
+    'mtime' => '2014-05-30',
+    'sha256' => '9fc54beedef44936a2bdeb5d34cdcfda4672855cb655e18e2b47d6b235c96a99',
+    'sha256-ungz' => 'd5fb2eb4bb4fab8c469f165c6acbd90f1fd297ac4ae0ef49872667dccf492188',
+    'size' => 95988
+  },
+  'XML-Encoding-2.09.meta' => {
+    'md5' => '181c7f27792331dc021361ace24691f7',
+    'mtime' => '2014-05-30',
+    'sha256' => 'b281ca5d854887febcab05badadea4a9dfab7399abaf39c273f83386b6d7a4da',
+    'size' => 1497
+  },
+  'XML-Encoding-2.09.tar.gz' => {
+    'md5' => '58c1641e16e63d14c26be3922013c7ee',
+    'md5-ungz' => 'fd1456a987e8a49381f2492367a1f14a',
+    'mtime' => '2014-05-30',
+    'sha256' => 'fe04161658c2b3922608b1536746f44a306955a2cc8bfa376b1f9442c1a28e01',
+    'sha256-ungz' => '90f717128dade93e6e4189f4537a31b91f718ddd62e4844462d2ce8cb78fac74',
+    'size' => 188176
+  },
+  'dmake-4.12.2.2.meta' => {
+    'md5' => '2544da0464c0083fa6295d573ab4c94b',
+    'mtime' => '2014-04-03',
+    'sha256' => '1e70429984c50abf20c581109d22fdf101a00a65f857eac5a419254e40e9c118',
+    'size' => 105
+  },
+  'dmake-4.12.2.2.zip' => {
+    'md5' => '7bbaa56a6f2cd00ddf68d5e3c304797a',
+    'mtime' => '2014-04-03',
+    'sha256' => 'c9dbffda19df70585cd4b83652085426f4dea874fd7480f2c4cb95d0b82f64c4',
+    'size' => 314898
+  },
+  'libnet-1.30.meta' => {
+    'md5' => '859c2d0b443a4095089b88be41c52ee7',
+    'mtime' => '2014-10-08',
+    'sha256' => 'e1d0418592f84c9e3fa9c9ec08dca6854e864a57817b4011cc0563631d4b1e69',
+    'size' => 3477
+  },
+  'libnet-1.30.tar.gz' => {
+    'md5' => '94309d395eb76d480b1a15aca85a781c',
+    'md5-ungz' => 'bab0f63623a170c951968ea76febbd41',
+    'mtime' => '2014-10-08',
+    'sha256' => 'c77a6ce855047bceaad2b0b8f4dbe8f88d2e1a9c6786ad668d50b0fe599797f7',
+    'sha256-ungz' => '95990f68c9807d7835c7c960643634a0e2aa37b7921a5b8d5c1ab6251bedcd0b',
+    'size' => 81922
+  },
+  'libnet-3.05.meta' => {
+    'md5' => 'd1221d04b61754ad34d01611f7c86024',
+    'mtime' => '2015-01-12',
+    'sha256' => '7584378136716726db89da0928849486a6b655386f9d77e8d3cb8ae5e429a7f3',
+    'size' => 3479
+  },
+  'libnet-3.05.tar.gz' => {
+    'md5' => '2169d1f98e7600b2db152d13f849ccc9',
+    'md5-ungz' => '250cffa9c5c74977f943ad9a0cf801ca',
+    'mtime' => '2015-01-13',
+    'sha256' => '62126c30f6a49d193fbdc7f906aa380ca8de711e8b8aca136d4760a905bf55d2',
+    'sha256-ungz' => '566ec672e3ca97a5cb518017accdd211c4b121ec4882d93fdeb603edda9f577c',
+    'size' => 83473
+  },
+  'libnet-3.06.meta' => {
+    'md5' => '9b97180985f833088fcef67e0b8da30f',
+    'mtime' => '2015-04-01',
+    'sha256' => '5e6ff23374dde27d2905b6ba712e9226df8f3561a1f50bcf5e0da62767be5f13',
+    'size' => 3750
+  },
+  'libnet-3.06.tar.gz' => {
+    'md5' => 'fd1f381298d04c1c91f7b2a8a0fb164e',
+    'md5-ungz' => '6783b2627a1d83efa2e9a175a9dc473b',
+    'mtime' => '2015-04-01',
+    'sha256' => 'e5e6e397c3e1ce8959b58e2e30ba6fe1abf24b95af999b7d8448d3b89f95b6b6',
+    'sha256-ungz' => '00a2fc9ade327b3535b6d543f2a751981008952043ed28767827921fa58e5d95',
+    'size' => 91833
+  },
+  'mod_perl-2.0.9.meta' => {
+    'md5' => '5fdec5aa1b203f78e00ad6d8ff926bc2',
+    'mtime' => '2015-06-18',
+    'sha256' => '1a4fd21cc8ddb350dedeb4c63a5b0999fbaca1244e26b8ad1f9bba5e4c55812e',
+    'size' => 598
+  },
+  'mod_perl-2.0.9.tar.gz' => {
+    'md5' => 'fdab9a145bf35f54fce997c96c76f8e2',
+    'md5-ungz' => 'd729b363715b6741cc013605c01fe93f',
+    'mtime' => '2015-06-18',
+    'sha256' => '0260f26ab771c1c95fadc67544b3400e420bb30b8a77565d2d02ad05498ef52b',
+    'sha256-ungz' => '6a1132476f0d62013c14479f48f56bdb421c94e3be70f6862702ccf433bdde13',
+    'size' => 3846584
+  },
+  'perl-5.11.5.meta' => {
+    'md5' => 'dd75aab10ff6c629e10e7db264a35aeb',
+    'mtime' => '2010-02-20',
+    'sha256' => '85625d2f3d920546b472054eb218f955ce557fcfb3e0406f596363efa2e79038',
+    'size' => 2269
+  },
+  'perl-5.11.5.tar.bz2' => {
+    'md5' => '07dca6906670ded63e535f95c0c82dff',
+    'md5-unbz2' => '05689167dc5b3fba15912bd3e2ad1576',
+    'mtime' => '2010-02-21',
+    'sha256' => '31d2096ee89ec077f659fcb9ad5cc73a8c3b868efa90192ad55cc46076fcc5fc',
+    'sha256-unbz2' => '4b91e0aa5bde971f5fde156366b88d17e34b12756a2244a41286e0459d98892f',
+    'size' => 12023436
+  },
+  'perl-5.11.5.tar.gz' => {
+    'md5' => 'cce1928d12d2b05524cce3e79ea4776e',
+    'md5-ungz' => '05689167dc5b3fba15912bd3e2ad1576',
+    'mtime' => '2010-02-21',
+    'sha256' => '14aedde12f72f6928d1f366329467b95e0a0ac24b814112c75abc71e2606e87a',
+    'sha256-ungz' => '4b91e0aa5bde971f5fde156366b88d17e34b12756a2244a41286e0459d98892f',
+    'size' => 14881930
+  },
+  'perl-5.13.5.meta' => {
+    'md5' => '8b4fab7f747ba988ead2cfb4c79b5c32',
+    'mtime' => '2010-09-19',
+    'sha256' => '26b177e14952884dd5480f641f4591c78c3c8481a42f5194cd49bb49b369a074',
+    'size' => 2513
+  },
+  'perl-5.13.5.tar.bz2' => {
+    'md5' => '9632166597de1e3adf2f1c419409309d',
+    'md5-unbz2' => 'bf8fdd4309da0e3227d88bb8e79de0ef',
+    'mtime' => '2010-09-19',
+    'sha256' => '03fafeb86dd0707604286aee9b0a466bf81c4921ad30e3bcf7acfdf0f5a2e6ef',
+    'sha256-unbz2' => 'b1e1dde777bf57ec08d12b0ff1e1976dad96ffa57440314f84c5e2ef9aacc324',
+    'size' => 12261626
+  },
+  'perl-5.13.5.tar.gz' => {
+    'md5' => '6880fca167033ce75812431c72e3b416',
+    'md5-ungz' => 'bf8fdd4309da0e3227d88bb8e79de0ef',
+    'mtime' => '2010-09-19',
+    'sha256' => '629e313556ce3f542f18ac1c9eb0b08e6bbc2818642033216dadb8ce8dd26ce7',
+    'sha256-ungz' => 'b1e1dde777bf57ec08d12b0ff1e1976dad96ffa57440314f84c5e2ef9aacc324',
+    'size' => 15192381
+  },
+  'perl-5.15.5.meta' => {
+    'md5' => '33e70cd35fd24ddfe2a4394cf9f5e3ec',
+    'mtime' => '2011-11-20',
+    'sha256' => '3e8dbc6c3b54bb3b2e661ab02f4dc8257e782012e8f9aacd0d3104f2eefb897f',
+    'size' => 2756
+  },
+  'perl-5.15.5.tar.bz2' => {
+    'md5' => '018317fae66aafc7d9b4c8f2a12b4a3f',
+    'md5-unbz2' => '3014dc214d653d7bb6d06203075ce616',
+    'mtime' => '2011-11-20',
+    'sha256' => 'e09b8f6596bc327230712336771be7b755877ad5188611ccbcbb23c3d5eb1fc6',
+    'sha256-unbz2' => '64e5204f155b23bba6b12a85e89aade17bd2edb4a2167e1cb3ba6251ee3a05ae',
+    'size' => 13430706
+  },
+  'perl-5.15.5.tar.gz' => {
+    'md5' => '95f940e0491a7f839fbde6f55589310d',
+    'md5-ungz' => '3014dc214d653d7bb6d06203075ce616',
+    'mtime' => '2011-11-20',
+    'sha256' => '09ebaa6fd05d04c8eae83ff862937a31320853c6979fd1c629dd71f56c2a4e31',
+    'sha256-ungz' => '64e5204f155b23bba6b12a85e89aade17bd2edb4a2167e1cb3ba6251ee3a05ae',
+    'size' => 16466591
+  },
+  'perl-5.17.3.meta' => {
+    'md5' => 'b283462ff22ab089db109d7be26bd0b4',
+    'mtime' => '2012-08-15',
+    'sha256' => '6623bb9389b3a37fbb6d2dc1a516301821cf07b32faf13f32d56ea603ef61703',
+    'size' => 785
+  },
+  'perl-5.17.3.tar.bz2' => {
+    'md5' => 'c0297281dcb05e254e54759b916a250a',
+    'md5-unbz2' => '8260ed497353882d95b992fc1a3beaef',
+    'mtime' => '2012-08-20',
+    'sha256' => '9e1754d1e731800b4dedc90f887fb3b0721c4de6f3d475b2692ec5666af5b7e9',
+    'sha256-unbz2' => '778ddeba8dccc0c0c5698fd75ed6c5576f01ab1c66ec9f87a7b3bb8e73bbf100',
+    'size' => 13682392
+  },
+  'perl-5.17.3.tar.gz' => {
+    'md5' => '698849ecdc2f3ab9f57e00a063db0706',
+    'md5-ungz' => '8260ed497353882d95b992fc1a3beaef',
+    'mtime' => '2012-08-20',
+    'sha256' => '5b532142105347fb4b05ced6efec63993fac15eec3dbdcd8c23d5d5dc10f2e30',
+    'sha256-ungz' => '778ddeba8dccc0c0c5698fd75ed6c5576f01ab1c66ec9f87a7b3bb8e73bbf100',
+    'size' => 15749600
+  },
+  'perl-5.19.11.tar.bz2' => {
+    'md5' => 'a76a1b8c5a372867fa120bc3da01e7f3',
+    'md5-unbz2' => '6f30e8b31694cf560addf63095889976',
+    'mtime' => '2014-04-20',
+    'sha256' => '0accd49883054dea15f835acf73cd775b78d0392bbf9b80edd23348f7713bd07',
+    'sha256-unbz2' => 'f893d090beaf6b415570b8f68a68b68f6c1f940e434b7d683502fff0891a8f98',
+    'size' => 13688315
+  },
+  'perl-5.19.11.tar.gz' => {
+    'md5' => '24eafdf52d2de08af72ae30526e05dd1',
+    'md5-ungz' => '6f30e8b31694cf560addf63095889976',
+    'mtime' => '2014-04-20',
+    'sha256' => '6afd985516c31855f8f9995cb44f68bc7641268f02807f761fd7d083b519133e',
+    'sha256-ungz' => 'f893d090beaf6b415570b8f68a68b68f6c1f940e434b7d683502fff0891a8f98',
+    'size' => 15770799
+  },
+  'perl-5.19.3.tar.bz2' => {
+    'md5' => '8093821658ed055f211ba02e7cf4e831',
+    'md5-unbz2' => 'e9749b30b879c59997479b49715559f6',
+    'mtime' => '2013-08-20',
+    'sha256' => 'da87038ee7237ddb1c016e15c190ed0cdd9b48af771c60cfa054952e32dc91dc',
+    'sha256-unbz2' => 'aa1e30a2e517964816e6c74872b9ef40a60fa6ad5561a8813191b1da9e79ffa1',
+    'size' => 13708458
+  },
+  'perl-5.19.3.tar.gz' => {
+    'md5' => '7af43e9765f6b745261a6f4f2ab6fd2c',
+    'md5-ungz' => 'e9749b30b879c59997479b49715559f6',
+    'mtime' => '2013-08-20',
+    'sha256' => '7d7809d57250577bcee367d9b6016b375d87295d4a8928c4a4f942a0e8545303',
+    'sha256-ungz' => 'aa1e30a2e517964816e6c74872b9ef40a60fa6ad5561a8813191b1da9e79ffa1',
+    'size' => 15882023
+  },
+  'perl-5.19.4.tar.bz2' => {
+    'md5' => '0f796df15b1666973ee248423876e866',
+    'md5-unbz2' => '19749c52e077358f53b06e12118da8fa',
+    'mtime' => '2013-09-20',
+    'sha256' => 'd63122e7e09fb4a1948aa2e2a8b6d563ad1663adafae759f299f5767f9814f37',
+    'sha256-unbz2' => '85c7574be58423404bf596705a67ffffcebae6473af8bd3e492708496c25337a',
+    'size' => 13765909
+  },
+  'perl-5.19.4.tar.gz' => {
+    'md5' => 'f60e0248a3b388f7d6c348c08c7bec5a',
+    'md5-ungz' => '19749c52e077358f53b06e12118da8fa',
+    'mtime' => '2013-09-20',
+    'sha256' => '5ffda9e4111768f77018f36bc7534da64b1c0d6343cca779c60a65301b4d7ebd',
+    'sha256-ungz' => '85c7574be58423404bf596705a67ffffcebae6473af8bd3e492708496c25337a',
+    'size' => 15945671
+  },
+  'perl-5.19.5.tar.bz2' => {
+    'md5' => '020b04d6e1037313f2e9ce754eb78f5d',
+    'md5-unbz2' => 'b2dc4ee2741223734bd6b6c8267d5fdc',
+    'mtime' => '2013-10-20',
+    'sha256' => 'b1d75c576c6a5a65da1750d56a4b083107162d4461fc318861b6aaeff7261190',
+    'sha256-unbz2' => 'd66089e763adbba6fa337be4ed775169b3ae02b07eb49d330c48e08dfb41a770',
+    'size' => 13490563
+  },
+  'perl-5.19.5.tar.gz' => {
+    'md5' => '491343a46cc1e7696af9650ec9415d25',
+    'md5-ungz' => 'b2dc4ee2741223734bd6b6c8267d5fdc',
+    'mtime' => '2013-10-20',
+    'sha256' => 'cff819fa67dde11aeb71d0dd4a45417adbdf9e275e62079170ad5587a925d416',
+    'sha256-ungz' => 'd66089e763adbba6fa337be4ed775169b3ae02b07eb49d330c48e08dfb41a770',
+    'size' => 15587842
+  },
+  'perl-5.20.1-RC1.tar.bz2' => {
+    'md5' => 'bf7022bca93ae41485b62221c31f1e55',
+    'md5-unbz2' => '77bfd83ff29a9f606da1dd2b9eeec639',
+    'mtime' => '2014-08-25',
+    'sha256' => '32e5b221cd9a146b736f58bdf82f1c35d14e22af1eaeae8e8045c914db45ceca',
+    'sha256-unbz2' => '662c44834f4f9cbe7053156b9be3fb14ca19bb3aaa834680aadc276dc51fafa0',
+    'size' => 13687471
+  },
+  'perl-5.20.1-RC1.tar.gz' => {
+    'md5' => '864af6b67fc71136bc2961606c296cc1',
+    'md5-ungz' => '77bfd83ff29a9f606da1dd2b9eeec639',
+    'mtime' => '2014-08-25',
+    'sha256' => '22a301c2b3e8531a394b89abcfe75531a2f9538a3116343b546569f9d1b0ec99',
+    'sha256-ungz' => '662c44834f4f9cbe7053156b9be3fb14ca19bb3aaa834680aadc276dc51fafa0',
+    'size' => 15775814
+  },
+  'perl-5.20.1-RC2.tar.bz2' => {
+    'md5' => 'da1f03ec893ba52e061aa48db90facde',
+    'md5-unbz2' => '2263471b531311acd3232e419506a87f',
+    'mtime' => '2014-09-07',
+    'sha256' => '68fcc4e0e779f94ea22b28a99bc1911c5c81750bbc0c0e3da8e6845893400845',
+    'sha256-unbz2' => 'd4b3e2345acab0e66738728c1244972e930b0d07ae96584893c48382e37296ef',
+    'size' => 13688733
+  },
+  'perl-5.20.1-RC2.tar.gz' => {
+    'md5' => '75f5378eb2926030baa469e4fbe9d094',
+    'md5-ungz' => '2263471b531311acd3232e419506a87f',
+    'mtime' => '2014-09-07',
+    'sha256' => '70b002e2a861e696574e366a701fcf79cb53bb6a577cb118f5ebff0c5bfac582',
+    'sha256-ungz' => 'd4b3e2345acab0e66738728c1244972e930b0d07ae96584893c48382e37296ef',
+    'size' => 15777591
+  },
+  'perl-5.20.1.meta' => {
+    'md5' => 'eb8682294e42a1daa91ea8c6ad96c14d',
+    'mtime' => '2014-09-14',
+    'sha256' => '97977d255ee54baac1a2a3d817ef6d0eeb1b02b7658962a67544e2188409b290',
+    'size' => 3661
+  },
+  'perl-5.20.1.tar.bz2' => {
+    'md5' => 'ede5166f949d9a07163bc5b086be9759',
+    'md5-unbz2' => '69209d5dfea000c4b577a9bb9aea43ce',
+    'mtime' => '2014-09-14',
+    'sha256' => 'ede5ded37e7fb6139b04728cfca826f17076f9888dbfd100a56834dbeb04657c',
+    'sha256-unbz2' => 'c00fcb6d93b862b2c179b54345f7399500710c7842f90cf68c2b2eb79e590a37',
+    'size' => 13676155
+  },
+  'perl-5.20.1.tar.gz' => {
+    'md5' => '7a195abb7d6769f751e90c7d30dcf2e0',
+    'md5-ungz' => '69209d5dfea000c4b577a9bb9aea43ce',
+    'mtime' => '2014-09-14',
+    'sha256' => 'fef10210f9e6f4dc2d190be0aee8e1fa2af664630f1d415868d33eebca26d4b5',
+    'sha256-ungz' => 'c00fcb6d93b862b2c179b54345f7399500710c7842f90cf68c2b2eb79e590a37',
+    'size' => 15777569
+  },
+  'perl-5.20.2-RC1.tar.bz2' => {
+    'md5' => '5bcd34688a030e49eadda9874e90972f',
+    'md5-unbz2' => 'edf2d26471cc72b46c803caba7c075ea',
+    'mtime' => '2015-02-01',
+    'sha256' => 'a01288568d6e67392b941366acd34cb1b083411da9cc6804d9dfd8f1601c7e38',
+    'sha256-unbz2' => 'cf49c98ff7ce84c12b660c35bc81675c03cf1290ea8dda4b7dbee931e454f043',
+    'size' => 13727082
+  },
+  'perl-5.20.2-RC1.tar.gz' => {
+    'md5' => '7ad6c7997dc9e8c92a4d52c8dda81a7b',
+    'md5-ungz' => 'edf2d26471cc72b46c803caba7c075ea',
+    'mtime' => '2015-02-01',
+    'sha256' => '0eb8b195df3cae3c3514dd52db9ba6cfb57e4dd72b27cce416e8728ea78ea69e',
+    'sha256-ungz' => 'cf49c98ff7ce84c12b660c35bc81675c03cf1290ea8dda4b7dbee931e454f043',
+    'size' => 15801610
+  },
+  'perl-5.20.2.meta' => {
+    'md5' => 'edc6d201b20587c2711ccad75403ffff',
+    'mtime' => '2015-02-01',
+    'sha256' => '5d51c6a99c08fc4df237789527b20c1d0dfacb8cdf80a04fc9ce9b2c043ff21a',
+    'size' => 3661
+  },
+  'perl-5.20.2.tar.bz2' => {
+    'md5' => '21062666f1c627aeb6dbff3c6952738b',
+    'md5-unbz2' => 'e59db5c4714e3b588e26ff141d0a286b',
+    'mtime' => '2015-02-14',
+    'sha256' => 'e5a4713bc65e1da98ebd833dce425c000768bfe84d17ec5183ec5ca249db71ab',
+    'sha256-unbz2' => '33812e517680e47102d4432a45506e85800bf30329905286479c888e4db5f9f5',
+    'size' => 13717128
+  },
+  'perl-5.20.2.tar.gz' => {
+    'md5' => '81b17b9a4e5ee18e54efe906c9bf544d',
+    'md5-ungz' => 'e59db5c4714e3b588e26ff141d0a286b',
+    'mtime' => '2015-02-14',
+    'sha256' => 'b1a43992a717d506095856d370550caa11dba8132a4fdaa186a1ae7e1fbd9b9d',
+    'sha256-ungz' => '33812e517680e47102d4432a45506e85800bf30329905286479c888e4db5f9f5',
+    'size' => 15800360
+  },
+  'perl-5.21.10.tar.bz2' => {
+    'md5' => 'ad4a6f67e71a8c6c14e2d26b29162dd4',
+    'md5-unbz2' => 'f4ebf03d60a2459efd1be3f493909c10',
+    'mtime' => '2015-03-20',
+    'sha256' => '0f6546c63d499e217b062eead8689f3ce4aa8c8213804dd87c481439a270411e',
+    'sha256-unbz2' => '0b90833ae65630ebf536306c1a5872311cf155ad0efebe0f105bdd2769444f7a',
+    'size' => 13680279
+  },
+  'perl-5.21.10.tar.gz' => {
+    'md5' => '7375a3ce8a3aebc431faa5ccc41eefd4',
+    'md5-ungz' => 'f4ebf03d60a2459efd1be3f493909c10',
+    'mtime' => '2015-03-20',
+    'sha256' => 'e7f1d44f2e7735d62bce31b7134bf27d3c3c6640d2382594b806ebd82a929f0c',
+    'sha256-ungz' => '0b90833ae65630ebf536306c1a5872311cf155ad0efebe0f105bdd2769444f7a',
+    'size' => 15901757
+  },
+  'perl-5.21.10.tar.xz' => {
+    'md5' => '0279fb32e79554f2ec2b1b8804975b85',
+    'mtime' => '2015-03-20',
+    'sha256' => 'e4586f4a620b0d8661cdd6b1a7d0f016ff067bc9e5e5932996b8d39b1df0e445',
+    'size' => 11191476
+  },
+  'perl-5.21.11.tar.bz2' => {
+    'md5' => '34f4afc56beeadf9abd999099552b39b',
+    'md5-unbz2' => '0aa6c2808f5856b6e245554adc4f97dd',
+    'mtime' => '2015-04-20',
+    'sha256' => '88549675b9b2594bfb5a8053d32b7615c2f656c02618e2eed4c47aa0a64900a5',
+    'sha256-unbz2' => '6f9ec309f719832fa8f62c8a47afdc22647b5ee5c8f7af5782e2d52b8c3ed026',
+    'size' => 13688324
+  },
+  'perl-5.21.11.tar.gz' => {
+    'md5' => '33e6e028b6ffc3bca4c046a0ae3f5f9b',
+    'md5-ungz' => '0aa6c2808f5856b6e245554adc4f97dd',
+    'mtime' => '2015-04-20',
+    'sha256' => '19da9e9ee1763c3c7d039535cd2733b1fedc1ac97cfe9132ddfc97665c28ef1b',
+    'sha256-ungz' => '6f9ec309f719832fa8f62c8a47afdc22647b5ee5c8f7af5782e2d52b8c3ed026',
+    'size' => 15914791
+  },
+  'perl-5.21.11.tar.xz' => {
+    'md5' => '338740662b001c80525908d048564a6b',
+    'mtime' => '2015-04-20',
+    'sha256' => 'efd174beb0e7e9b5db91e42ab98090e4f748f66e9c1e3bf6813e56082e884562',
+    'size' => 11192552
+  },
+  'perl-5.21.4.tar.bz2' => {
+    'md5' => 'ba6773118ac5dfc11e5968d292c93edc',
+    'md5-unbz2' => 'ba42268e87cfb46628b6a24b00aeb6d7',
+    'mtime' => '2014-09-20',
+    'sha256' => '44b6ef1e00e994da9a2d957dd705da46b1a85f4e4d54a15e0380983dc5c23f75',
+    'sha256-unbz2' => '6918e5d2f400e70dd828e6f6c9527675c1d5b803ae2023ec2a75255d986be281',
+    'size' => 13317286
+  },
+  'perl-5.21.4.tar.gz' => {
+    'md5' => '8cb4527fdf1b054bff122eb28af9ff45',
+    'md5-ungz' => 'ba42268e87cfb46628b6a24b00aeb6d7',
+    'mtime' => '2014-09-20',
+    'sha256' => 'bb90138f32513b04c9ad90e0e9b1f275d2840218b8f4c7821fede84e94f6f187',
+    'sha256-ungz' => '6918e5d2f400e70dd828e6f6c9527675c1d5b803ae2023ec2a75255d986be281',
+    'size' => 15465783
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlWDPc0ACgkQMo2oZ0UPieyl7QCgoNIN7yzfe3aWMPqDjPuf880w
+O78AnRqdZGEerxkf8935jA+kLheqTwMn
+=Il8b
+-----END PGP SIGNATURE-----

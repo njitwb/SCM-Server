@@ -2,7 +2,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-# CHECKSUMS file written on Mon Dec 29 23:31:24 2014 GMT by CPAN::Checksums (v2.08)
+# CHECKSUMS file written on Wed Jul  1 07:37:25 2015 GMT by CPAN::Checksums (v2.08)
 $cksum = {
   'PatchReader-0.9.6.meta' => {
     'md5' => 'f2281eefe112032e35b253e2603b7546',
@@ -23,7 +23,7 @@ __END__
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (GNU/Linux)
 
-iEYEARECAAYFAlSh5EwACgkQMo2oZ0UPiezsBQCghZBV0yOAK3GNN1yBfygY53I0
-o8QAnjevkBNr8dXtsKXaNFo/oSIX3zx5
-=znnr
+iEYEARECAAYFAlWTmLUACgkQMo2oZ0UPiezpsQCdE7UVB5SIgNAJZh6QVbM8iCEP
+tFgAn3FVxFTtRGirHKH9W1IuqyYyqkc3
+=H63X
 -----END PGP SIGNATURE-----

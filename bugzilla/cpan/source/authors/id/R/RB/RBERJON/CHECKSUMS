@@ -1,0 +1,237 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sat Jun 27 23:19:54 2015 GMT by CPAN::Checksums (v2.08)
+$cksum = {
+  'Acme-Dahut-0.42.tar.gz' => {
+    'md5' => '588ee9ddfee9cd8ace2f39bd038b1450',
+    'md5-ungz' => '68498f8df626fc063e1db82549ceeb78',
+    'mtime' => '2001-11-30',
+    'sha256' => '92ee57f541b8e977f68da7811777787515ab654c7b80c9b792b53d2b739b1feb',
+    'sha256-ungz' => 'f2b9f7184cbfd4ac1afd6b60aa4969b3928c8e85ccc52b30a58b907949da9487',
+    'size' => 2316
+  },
+  'AxKit-Plugin-DisableXSLTParams-0.01.tar.gz' => {
+    'md5' => '40ead5ae0ecfaf69c15c66fb0ee1d8d7',
+    'md5-ungz' => '5360f4976d8dcfff1daafd8b5499dac9',
+    'mtime' => '2002-01-30',
+    'sha256' => 'e70eb504c58d08e4a2742b957eea45522750f1369dfe099cbc5c08237f9b6647',
+    'sha256-ungz' => '22c6fb5ddd7118d4c5217cd59b9a916936d34afd07af8bc623442d31a26838dc',
+    'size' => 1589
+  },
+  'AxKit-XSP-AttrParam-0.01.tar.gz' => {
+    'md5' => '39c887d1b07ef60d9d756dbc6d010177',
+    'md5-ungz' => '496b990652dc843f8754858f2982ab24',
+    'mtime' => '2001-05-03',
+    'sha256' => 'fa09be11e94e07927e7e56c979e54fe99f02cb15e3773b62c0cd4a5fdb89ddc3',
+    'sha256-ungz' => '0392b45d34bdadbade447131fd6fb4e7b4cfb67e7ad20fd11ce0be8fdc92061f',
+    'size' => 2706
+  },
+  'AxKit-XSP-CharsetConv-0.02.tar.gz' => {
+    'md5' => 'f83c25e6fd67022044d0a170f0069c96',
+    'md5-ungz' => 'fa45edaf4ac5170a1d44457a269df203',
+    'mtime' => '2001-08-03',
+    'sha256' => '5baedca8ffeb6f81fc157bcebd37b15e7a8774619d17af34b36bf04dab95a55e',
+    'sha256-ungz' => '3d144ceec5b740ee3606a787ab5eabeba8f53a049cfea887690b49b27623b99c',
+    'size' => 2413
+  },
+  'AxKit-XSP-MD5-0.01.tar.gz' => {
+    'md5' => 'b55c435eeb2b6917b52723daa690b7b2',
+    'md5-ungz' => '2094e948598a8d0dabf0346c5bc226b4',
+    'mtime' => '2001-06-26',
+    'sha256' => '3e53d3e766d18b30914221ba44323baa4cef1a98cadd97935447800ed770aa02',
+    'sha256-ungz' => 'ab8e8a982cf516f7718a21b7d4ffbf41e3edd4a5186f5556525bae465602d055',
+    'size' => 2083
+  },
+  'CSS-SAC-0.05.tar.gz' => {
+    'md5' => 'a23d4ab531b25e131ed48894d647242c',
+    'md5-ungz' => 'aaaa97450f72f0216586cccb9175365f',
+    'mtime' => '2003-07-08',
+    'sha256' => 'fc064fcd3e20e59752353e4c514663457d55a730c199424f027c262be5cc7ddc',
+    'sha256-ungz' => 'fa6a92f63848d5580543f7b7d508fa142f000e786352723c6642c6805fadbcde',
+    'size' => 39225
+  },
+  'Catalyst-Authentication-Store-KiokuDB-0.01.meta' => {
+    'md5' => 'f3dc86e1b08423b0c7ebdd1a81c888ce',
+    'mtime' => '2008-12-17',
+    'sha256' => '39b4f6ae3b36abc9c1044e1c65cc0b3d6176f9ce19e84d0b51bfa024246c7fe0',
+    'size' => 533
+  },
+  'Catalyst-Authentication-Store-KiokuDB-0.01.tar.gz' => {
+    'md5' => 'b424c7c73218af503b6b2e20c0133701',
+    'md5-ungz' => '7c230bef40a7cac23085514ee39e5e32',
+    'mtime' => '2008-12-17',
+    'sha256' => '62b5c066c4ffbc6eac07a9393061588a557b2eb3ea44a94439f623c97587ebb5',
+    'sha256-ungz' => 'b4186f27d567b1577b1b4c9ec1b7bd1f9e77ba33a77967b22bba763e03e4a8c2',
+    'size' => 21309
+  },
+  'Catalyst-Authentication-Store-KiokuDB-0.03.meta' => {
+    'md5' => 'f3dc86e1b08423b0c7ebdd1a81c888ce',
+    'mtime' => '2008-12-17',
+    'sha256' => '39b4f6ae3b36abc9c1044e1c65cc0b3d6176f9ce19e84d0b51bfa024246c7fe0',
+    'size' => 533
+  },
+  'Catalyst-Authentication-Store-KiokuDB-0.03.tar.gz' => {
+    'md5' => '772f2ff06a140efb77e1b7626e930e86',
+    'md5-ungz' => 'ab16d1c4da7c6c90902967b4909421ee',
+    'mtime' => '2012-05-09',
+    'sha256' => '02a3768d6e59ca10cd3991a27eb324339e223c07f77b5c8001a93370ab897082',
+    'sha256-ungz' => '6069704daf628e8f4062fc198af1df7608366aa36181be3a11a6336ab6db986a',
+    'size' => 21445
+  },
+  'Catalyst-Model-CouchDB-0.01.meta' => {
+    'md5' => 'd78cbe3d78621afa238f217e3372a127',
+    'mtime' => '2008-07-16',
+    'sha256' => '6e684b6af156ee50200930f59fd35b0411ca19539d9e46d0f1fc7e0b11c2eb62',
+    'size' => 424
+  },
+  'Catalyst-Model-CouchDB-0.01.tar.gz' => {
+    'md5' => '4e721257c31bc766c8dc098f033698ff',
+    'md5-ungz' => '9792dc2f134079307e709c993bbe5ef7',
+    'mtime' => '2008-07-16',
+    'sha256' => '1658bf084f9d22ed4a786a193c27950a6f2f757d82e81ba492742d2f18a52d3c',
+    'sha256-ungz' => 'e0221f17913dc80a9609e84153e30fd8dcd40de964756459bb3b8ce7d6462a33',
+    'size' => 13051
+  },
+  'Catalyst-Plugin-Session-Store-KiokuDB-0.01.meta' => {
+    'md5' => '66aa383f9fc83a006796bdc6f0b14045',
+    'mtime' => '2008-12-17',
+    'sha256' => '52902dfa75e11aa4e90775e4c30e588d7a38cd26c8e7d6ad30dbc93d5634fd3d',
+    'size' => 539
+  },
+  'Catalyst-Plugin-Session-Store-KiokuDB-0.01.tar.gz' => {
+    'md5' => '9c1b722c5470d65fefee98632010f355',
+    'md5-ungz' => '4f7aa7aeb64468f8d3ee8f078869ae51',
+    'mtime' => '2008-12-17',
+    'sha256' => '09a1733d808001daa41f68d63f19cbb7871f40994639a24cfad4d2a39eee33fa',
+    'sha256-ungz' => 'da987a62cd470fabbf28a055021fb32483a0d293f993cdb69f0b5527c51c5f80',
+    'size' => 20292
+  },
+  'Class-ArrayObjects-1.02.meta' => {
+    'md5' => 'ef7ed135956ba728179f85affc2cf787',
+    'mtime' => '2003-12-01',
+    'sha256' => '70cb1c70e44a174cea7c02e8bd433b83570885039b5f8f8b3b51c0d318e73ecc',
+    'size' => 310
+  },
+  'Class-ArrayObjects-1.02.tar.gz' => {
+    'md5' => '352ec7dbbebf65a4fc92808c51f5925e',
+    'md5-ungz' => '7418d0b8a6b0d0e3213efae8db0de704',
+    'mtime' => '2003-12-02',
+    'sha256' => 'dcb89338edeb2385e288f5f51836c75deb25c351c70ac0aa97f956e51aa352b0',
+    'sha256-ungz' => '2449fb818d8604a50a24998265146376811b5f3b15b38b01ad3df1ae00f0a85f',
+    'size' => 6641
+  },
+  'CouchDB-Client-0.04.meta' => {
+    'md5' => '6e839aaa5dbb94d2df7d16c07ff5dce2',
+    'mtime' => '2008-07-09',
+    'sha256' => 'e33d53e62a15247bf1d55382007eb4605cf1b535bd2765bc4466e546e5c4886d',
+    'size' => 472
+  },
+  'CouchDB-Client-0.04.tar.gz' => {
+    'md5' => '1d217d3ab8fb693531f54518c750eb44',
+    'md5-ungz' => '45a7c86f52fffc90c0aa0218b1ea6181',
+    'mtime' => '2008-07-09',
+    'sha256' => '45052ea1b3fe5da73d182348e598f0a3ff6ae11aa38d07a8d3845286cc61eb11',
+    'sha256-ungz' => '21c042202ce6e75685cec6464f94454ab8b9edd6a16ca61f83460632eedbf596',
+    'size' => 22616
+  },
+  'CouchDB-Deploy-0.03.meta' => {
+    'md5' => '6c76dac54592272abcb4b8456ad5965a',
+    'mtime' => '2008-07-09',
+    'sha256' => '4935a3482b1c99fe60431794c0914a4ab7db58e0571f708a94a38b5fc511b4ff',
+    'size' => 479
+  },
+  'CouchDB-Deploy-0.03.tar.gz' => {
+    'md5' => '0a4f5341cf532c37dbff47f34b14d9ad',
+    'md5-ungz' => 'ff7d7170e8cf5e9dfc25d8fb73152c0e',
+    'mtime' => '2008-07-09',
+    'sha256' => '60b44b2559f9339ad75e24a79a5b9f6fa6d0c92d5b47f433c8d8822af283c24d',
+    'sha256-ungz' => 'db2b54d868c7b45d603a743c16cbe296f31587e6e264115bdf84401189ab6237',
+    'size' => 16384
+  },
+  'JSON-Any-1.17.meta' => {
+    'md5' => 'd3d21d56c32609cd3003c3d806286f06',
+    'mtime' => '2008-07-08',
+    'sha256' => 'f0e677e1e9098c6a02af9dc7f4bf6f48d0033a313f9697a66dc37d6fb6e5f0fb',
+    'size' => 423
+  },
+  'JSON-Any-1.17.tar.gz' => {
+    'md5' => '625430b5e806d141f0a16452a9fd49d8',
+    'md5-ungz' => '191052e0ad0e92d72627d9950ef48f14',
+    'mtime' => '2008-07-08',
+    'sha256' => 'cbc5b589a317cacb5a37f0c3be925084fd6496539d3a2ae6418cacbfc1fac61f',
+    'sha256-ungz' => 'd4fdb9cacb0c44830e717540190c1355660893b3c46662cc95d649aea0deca91',
+    'size' => 25144
+  },
+  'XML-CommonNS-0.02.tar.gz' => {
+    'md5' => '67e41093c2a57daabb38ee5f86c098f8',
+    'md5-ungz' => '5dcca77fb419c5305c3eb2e12560be52',
+    'mtime' => '2003-07-24',
+    'sha256' => 'daf007a102c0cd0bf2257f3f4bbd70124a8b93811b96222b4bc9b1f03ac44634',
+    'sha256-ungz' => 'c02160ecb84e7cf21017c67270659f4e1c22008dcb3ed6305b0a78afe5b07cd2',
+    'size' => 2495
+  },
+  'XML-Filter-BufferText-1.01.tar.gz' => {
+    'md5' => '2992c0387632583b966ab9c965b25512',
+    'md5-ungz' => '4badda77a2375b3de8dc7e6f4294aaa7',
+    'mtime' => '2003-07-04',
+    'sha256' => '8fd2126d3beec554df852919f4739e689202cbba6a17506e9b66ea165841a75c',
+    'sha256-ungz' => '74fcfc9d178066afdb4c09287ccaeda293800343de5b4c6d5aa33fe9389cedc5',
+    'size' => 2269
+  },
+  'XML-NamespaceSupport-1.09.meta' => {
+    'md5' => 'e61b984e676f3b6322841172a9a6c0c8',
+    'mtime' => '2005-05-12',
+    'sha256' => '6c8c6bb789a4f27c3e631ab46b7413b34051f566e91feac8767caf2957480adc',
+    'size' => 316
+  },
+  'XML-NamespaceSupport-1.09.tar.gz' => {
+    'md5' => 'b0867d7b599d8a63ba630fa6227936fe',
+    'md5-ungz' => '0133972665512a926202d47d853d3524',
+    'mtime' => '2005-05-12',
+    'sha256' => 'a12cee7ad43d9969fb4c3cf547958367a8547fa959801ea47b0f49e32e89c25b',
+    'sha256-ungz' => '54a845e6a47a7a2887bef8a280494181785f09fcb583a1a8a5c1bb87373e9c17',
+    'size' => 8036
+  },
+  'XML-RDDL-1.02.tar.gz' => {
+    'md5' => 'c3d79ee2d29295225482f817108db7f2',
+    'md5-ungz' => '2c3d0f0baca47b106ac6f4f48cbe5b59',
+    'mtime' => '2002-07-07',
+    'sha256' => 'c0a88ee9446367b35b14706ea6a10e12f5e28b72b55ad3e9c3d77f38c3d37692',
+    'sha256-ungz' => '46aba985d8170bba1eba19a4b89f7b8637071f171e49977ef39abd1184b8c8cd',
+    'size' => 6754
+  },
+  'XML-SAX-Expat-0.37.tar.gz' => {
+    'md5' => 'c48024d363a1ff9abaf8f9af592d38cd',
+    'md5-ungz' => '9e3eb51e4553548150eb2518d536e7b1',
+    'mtime' => '2003-07-04',
+    'sha256' => '0406c84480cd02ed20a86921cc8b650235b80dccf465e93bdf726a7d1fcd246d',
+    'sha256-ungz' => 'a5acbc9a7839664d349865943a7eea537511859410d50b8146e6c4270f1bb217',
+    'size' => 5329
+  },
+  'XML-SAX-Writer-0.44.tar.gz' => {
+    'md5' => 'd8c80d6538562925a96ce1c6e00d7f20',
+    'md5-ungz' => '0a8ae5e1029c0831ece1b3788ee94a13',
+    'mtime' => '2002-09-06',
+    'sha256' => '97fdc211afa67e8a1704ef2624c7afc5e6aa4cf2461ab1cb43db7a2ec5d5c7e5',
+    'sha256-ungz' => '81a1c15e4113d71012bca14fdb4f8085677d3c8714228be2aa3a241f79c7c5d9',
+    'size' => 11683
+  },
+  'XML-XPathExt-0.01_01.tar.gz' => {
+    'md5' => '36cd608d601cb40beac94a070b5d0567',
+    'md5-ungz' => 'b6d4035392688311c26e36ee81fa1fee',
+    'mtime' => '2003-08-05',
+    'sha256' => '32d9b8845de7160176cf374904c04c2a8b47190c74a4fa8893cfc0535a70ed6e',
+    'sha256-ungz' => '856a77177298e3bc666897c318a47e854626c9f9718c4e2bc3a3ef73505a5f17',
+    'size' => 2958
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlWPL5oACgkQMo2oZ0UPiezvewCgg9irM2vLNTChsjafCmsjWnmP
+s9gAn2bhWSJU0+9xaOKLK+ksrnkCgMFk
+=KcRi
+-----END PGP SIGNATURE-----

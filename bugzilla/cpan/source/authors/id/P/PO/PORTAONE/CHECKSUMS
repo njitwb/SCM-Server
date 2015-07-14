@@ -1,0 +1,23 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Thu Jun 11 06:58:00 2015 GMT by CPAN::Checksums (v2.08)
+$cksum = {
+  'Authen-Radius-0.24.tar.gz' => {
+    'md5' => '35541556f8ec48bf0b60f2e8d284957f',
+    'md5-ungz' => 'fefc739ba61103e7a34b8d7fe6b7afc5',
+    'mtime' => '2013-10-31',
+    'sha256' => '1f3aea9d09c5be90b27284166109ee143315ee95306a937a79c232ec83c4d44f',
+    'sha256-ungz' => 'ee55e77feaeae4199cd1e4cd09ee11161898d21ba56535285962a1e00125bcd4',
+    'size' => 40342
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlV5MXgACgkQMo2oZ0UPiezCQwCbBf3Z62xIT/Z9MESVnx1vhITz
+jp0AoJF42vnIC5DHGmqbHQ51KgOyWLFl
+=W80M
+-----END PGP SIGNATURE-----
